@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TechChamps</title>
+    <!--=============== Fav icon ===============-->
+    <link rel="icon" href="imgs/logo-fav.png" type="image/png">
+    <!--=============== Bootstrap css ===============-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--=============== fontAwesome css ===============-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--=============== Google fonts Ralway and PT sans ===============-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
+    <!--========== BX Slider Css ==========-->
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <!--========== Animate Css ==========-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--=============== style css ===============-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    /*(function () {
+            var options = {
+                whatsapp: "01200322565", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "left", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();*/
+</script>
+<!-- /WhatsHelp.io widget -->
+
+<body>
+
+    <!--============ Start navbar ============-->
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active_link">
+                    <a data-value="home" class="nav-link" href="#">Home</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="about" class="nav-link" href="#">About</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="services" class="nav-link" href="#">Services</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="values" class="nav-link" href="#">Values</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="portofolio" class="nav-link" href="#">Portofolio</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="partners" class="nav-link" href="#">Partners</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a data-value="contacts" class="nav-link" href="#">Contacts</a>
+                    <ul class="list-unstyled hovered-a navbar-nav">
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                        <li class="nav-item ">
+                            <span></span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--============ End navbar ============-->
+
+    <!--============ Start main_slider ============-->
+    <section id="home" class="homeSlider block">
+        <!--<ul class="bxslider">
+                <li>
+                  <img src="imgs/slider/header-image.jpg" title="" alt="">
+                </li>
+                <li>
+                  <img src="imgs/slider/2.jpg" title="" alt="">
+                </li>
+                <li>
+                  <img src="imgs/slider/3.jpg" title="" alt="">
+                </li>
+                <li>
+                  <img src="imgs/slider/4.jpg" title="" alt="">
+                </li>
+            </ul>
+        -->
+
+        <section class="hero">
+            <!--Satrt hero-->
+            <div class="container">
+                <div class="row">
+                    <!--Start row-->
+                    <div class="col-xs-12">
+                        <!--Start col-->
+
+                        <div class="hunting text-center">
+                            <h1 class="text-capitalize wow fadeInUp" data-wow-duration="1s">hunting</h1>
+                            <h4 class="text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">techies
+                                dreams</h4>
+                            <div class="">
+                                <button class="text-uppercase main-btn font-weight-bold wow fadeInLeft"
+                                    data-wow-duration="1s" data-wow-delay="1s" data-toggle="modal" data-target="#toHire">i
+                                    want to hire</button>
+                                <button class="text-uppercase main-btn-alpha font-weight-bold wow fadeInRight"
+                                    data-wow-duration="1s" data-wow-delay="1s" data-toggle="modal" data-target="#toWork">i want to work</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End col-->
+                </div>
+                <!--End row-->
+                <div class="row">
+                    <!--Start row-->
+                    <div class="col-xs-12">
+                        <!--Start col-->
+                        <p class="advice text-center wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">Tech
+                            Talent Acquisition Has Never Been <strong>easier!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End hero-->
+    </section>
+    <!--============ End main_slider ============-->
+
+    <!--=============== Start we-connect ===============-->
+    <section id="about" class="we-connect block text-center">
+        <div class="container">
+            <!--Start Container-->
+            <div class="row" style="width: 100%">
+                <!--Start row-->
+
+                <div class="col-xs-12" style="width: 100%">
+
+                    <h3 class="font-uppercase text-center font-weight-bold text-uppercase">we connect</h3>
+
+                </div>
+
+            </div>
+            <!--End row-->
+        </div>
+        <!--End Container-->
+        <div class="connect-bg"></div>
+    </section>
+    <!--=============== End we-connect ===============-->
+
+    <!--=============== Start service ===============-->
+    <section id="services" class="service block">
+        <div class="container">
+            <!--Start Container-->
+
+            <h4 class="media-h4 text-center font-weight-bold text-uppercase main-color wow fadeInUp" data-wow-duration="1s"
+                data-wow-delay=".2s">find the perfect service</h4>
+            <h5 class="text-center text-uppercase wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">for your
+                buisness</h5>
+            <hr class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+            <p class="text-center text-capitalize main-p wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                With Tech champs, you will always find your needed service, tailored to match your situation,
+                requirements, and cost.
+            </p>
+
+            <section class="certs">
+
+                <div id="carousel3d">
+
+                    <div class="photo-thumbs">
+                        <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true"
+                            :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60"
+                            :clickable="true" :autoplay="true" :autoplay-timeout="5000">
+
+                            <slide :index="0">
+                                <span class="number">
+                                    <img src="imgs/s1-svg.png" alt="">
+                                </span>
+                                <h3>Sourcing Campaigns</h3>
+                                <p>
+                                    Get access to talents from a strong techies’ database that we have, along with 30K
+                                    of techie’s audience on LinkedIn.
+                                </p>
+                            </slide>
+
+                            <slide :index="1">
+                                <span class="number">
+                                    <img src="imgs/s2-svg.png" alt="">
+                                </span>
+                                <h3>Pre-hiring</h3>
+                                <p>
+                                    Have a strong & continuous-developed hiring process, from sourcing to hiring your
+                                    rock star.
+                                </p>
+                            </slide>
+
+                            <slide :index="2">
+                                <span class="number">
+                                    <img src="imgs/s3-svg.png" alt="">
+                                </span>
+                                <h3>Pre & Post hiring</h3>
+                                <p>
+                                    Enjoy with all pre-hiring benefits, plus more secured objectives, for any negative
+                                    situations after hiring.
+                                </p>
+                            </slide>
+
+                            <slide :index="3">
+                                <span class="number">
+                                    <img src="imgs/s4-svg.png" alt="">
+                                </span>
+                                <h3>Technical subject matter hiring</h3>
+                                <p>
+                                    Your technical managers’ missing is no longer a problem, you can get technical
+                                    consultants for any position you want to hire, to process the deep technical
+                                    evaluation, in partnership with us.
+                                </p>
+                            </slide>
+
+                            <slide :index="4">
+                                <span class="number">
+                                    <img src="imgs/s5-svg.png" alt="">
+                                </span>
+                                <h3>Retained hiring power</h3>
+                                <p>
+                                    get a retained hiring power, with fixed number of hours per time frame, to serve
+                                    your needs whatever it is, if commissions-based hiring is not suitable for you.
+                                </p>
+                            </slide>
+
+                            <slide :index="5">
+                                <span class="number">
+                                    <img src="imgs/s6-svg.png" alt="">
+                                </span>
+                                <h3>Talent management consulting</h3>
+                                <p>
+                                    As long as the strategies sustainability is the most important part of the story,
+                                    we offer deep talent management consulting services, to INSPECT & ADAPT talents to
+                                    business goals.
+                                </p>
+                            </slide>
+
+                        </carousel-3d>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <!--End Container-->
+    </section>
+    <!--=============== End service ===============-->
+
+    <!--=============== Start value ===============-->
+    <section id="values" class="value block">
+        <div class="container">
+            <!--Start Container-->
+            <div class="head">
+                <h4 class="text-center font-weight-bold text-uppercase wow fadeInUp" data-wow-duration="1s"
+                    data-wow-delay=".2s">our value</h4>
+                <h6 class="text-center text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    Tech champs’ community, talents and businesses, value not just the quality of our service, but
+                    also…
+                </h6>
+            </div>
+            <div class="appendex">
+                <h6 class="text-center text-uppercase main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                    data-wow-delay=".6s">experience</h6>
+                <p class="text-center text-capitalize m-auto wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                    we are techies actually, so we productize the service, with continuous improvements, to offer the
+                    best hiring experience to our community.
+                </p>
+            </div>
+            <div class="row">
+                <!--Start row-->
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="details one">
+                        <h6 class="text-capitalize main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay="1s">helping</h6>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+                            we care for helping anyone in our community, it’s not just about business, it’s about bring
+                            a smile of satisfaction to all of you.
+                        </p>
+                    </div>
+                    <div class="details two">
+                        <h6 class="text-capitalize main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay="1.4s">respect</h6>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.6s">
+                            the main engine that runs our growing and quality, is respect, for time, for privacy, for
+                            excuses, and for the way we communicate with.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="details-img wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
+                        <img src="imgs/tree.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="details three">
+                        <h6 class="text-capitalize main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay="1s">empowering</h6>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
+                            the win-win relation is our core target, we empower our community to get exactly what they
+                            need.
+                        </p>
+                    </div>
+                    <div class="details four">
+                        <h6 class="text-capitalize main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay="1.4s">honestly</h6>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.6s">
+                            Trust is our coin that we aim to sustain every day, in Tech Champs community, you are safe
+                            from any bad people, from deceiving, from leakage of feedback, and mainly from missing
+                            information that could be valuable to you.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!--End row-->
+        </div>
+        <!--End Container-->
+    </section>
+    <!--=============== End value ===============-->
+
+    <!--=============== Start portofolio ===============-->
+    <section id="portofolio" class="portofolio block">
+        <div class="overlay">
+            <!--Start Overlay-->
+            <img class="top-left" src="imgs/portfolio-top-lefet.png" alt="">
+            <img class="bottom-right" src="imgs/portfolio-bottom-right.png" alt="">
+            <img class="portofolio-bg" src="imgs/portofolio-bg.png" alt="">
+            <div class="container">
+                <!--Start Container-->
+                <div class="head">
+                    <h4 class="text-center text-uppercase wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">our
+                        portofolio</h4>
+                    <h6 class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">We keep the speed
+                        and top quality at the core</h6>
+                </div>
+                <div class="row">
+                    <!--Start row-->
+
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="info">
+                            <span class="number wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">+200</span>
+                            <p class="text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">success
+                                hires</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="info">
+                            <span class="number wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">+50</span>
+                            <p class="text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">tech
+                                companies</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="info">
+                            <span class="number wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">+3</span>
+                            <p class="text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">years
+                                of hunting</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--End row-->
+                <div class="download text-center">
+                    <a href="#" download class="text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">download
+                        company profile</a>
+                </div>
+            </div>
+            <!--End Container-->
+        </div>
+        <!--End overlay-->
+    </section>
+    <!--=============== End portofolio ===============-->
+
+    <!--=============== Start partners ===============-->
+    <section id="partners" class="partners block">
+        <div class="container">
+            <!--Start Container-->
+            <div class="head">
+                <h4 class="text-center text-capitalize wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Join
+                    tens of</h4>
+                <h6 class="text-center text-capitalize main-color font-weight-bold wow fadeInUp" data-wow-duration="1s"
+                    data-wow-delay=".4s">our success partners!</h6>
+            </div>
+
+            <div class="row">
+                <!--Start row-->
+
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/1.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/2.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/13.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/3.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/4.jpg" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/14.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/5.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/6.jpg" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/15.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/7.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/8.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/16.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/9.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/19.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/17.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <img src="imgs/logos/11.png" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/12.jpg" alt="">
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                            <img src="imgs/logos/18.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--End row-->
+
+            <div class="join text-center">
+                <a href="#" class="text-uppercase main-btn wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" data-toggle="modal" data-target="#toHire">
+                    join now
+                </a>
+            </div>
+        </div>
+        <!--End Container-->
+    </section>
+    <!--=============== End partners ===============-->
+
+    <!--=============== Start contacts ===============-->
+    <section id="contacts" class="contacts block">
+        <img src="imgs/top-contact.png" class="top-contact" alt="">
+        <div class="container">
+            <!--Start Container-->
+            <div class="head text-center">
+                <h4 class="font-weight-bold wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Have a Question</h4>
+                <h6 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Send us a message and we will get
+                    back to you within 24 hours!</h6>
+            </div>
+            <form method="POST" action="./scripts/form-data.php">
+                <div class="contacts-info">
+                    <div class="row">
+                        <!--Start row-->
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="text" class="form-control shadow-sm wow fadeInLeft" data-wow-duration="1s"
+                                data-wow-delay=".6s" placeholder="name" name="name">
+                            <input type="number" class="form-control shadow-sm wow fadeInLeft" data-wow-duration="1s"
+                                data-wow-delay=".8s" placeholder="mobile" name="mobile">
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="email" class="form-control shadow-sm wow fadeInRight" data-wow-duration="1s"
+                                data-wow-delay=".6s" placeholder="email" name="email">
+                            <select name="country" class="form-control shadow-sm wow fadeInRight" data-wow-duration="1s"
+                                data-wow-delay=".8s">
+                                <option value="country">country</option>
+                                <option value="egypt">egypt</option>
+                            </select>
+                        </div>
+
+                        <textarea name="details" class="form-control shadow-sm wow fadeInUp" data-wow-duration="1s"
+                            data-wow-delay="1s" rows="6" placeholder="more details..."></textarea>
+                        <button type="submit" class="main-btn text-uppercase wow fadeIn" data-wow-duration="1s"
+                            data-wow-delay="1.8s">
+                            <i class="fa fa-paper-plane fa-fw"></i>
+                            send
+                        </button>
+                    </div>
+                    <!--End row-->
+                </div>
+            </form>
+
+        </div>
+        <!--End Container-->
+        <img src="imgs/bottom-contact.png" class="bottom-contact" alt="">
+    </section>
+    <!--=============== End contacts ===============-->
+
+    <!--=============== Start footer ===============-->
+    <footer>
+        <div class="container">
+            <!--Start Container-->
+            <div class="row">
+                <!--Start row-->
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-about">
+                        <h4 class="text-capitalize">about tech <b>champs</b></h4>
+                        <p>
+                            We will help you to grow your business! We will help you to grow your business! We will
+                            help you to grow your business! We will help you to grow your business! We will help you to
+                            grow your business!
+                        </p>
+                        <div class="links">
+                            <a href="https://www.facebook.com/techchamps.co/" target="_blank">
+                                <i class="fa fa-facebook fa-fw"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/techchamps/" target="_blank">
+                                <i class="fa fa-linkedin fa-fw"></i>
+                            </a>
+                            <a href="https://www.twitter.com/techchamps/" target="_blank">
+                                <i class="fa fa-twitter fa-fw"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-contact">
+                        <h4 class="text-capitalize">contact <b>information</b></h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-map-marker fa-fw"></i>
+                                <span> Zamalek, Cairo, Egypt.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o fa-fw"></i>
+                                <span>amr.tawwab@techchamps.co</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-fw"></i>
+                                <span>01200322565 01111227883</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-fw"></i>
+                                <span>01111227883</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="footer-subscribe">
+                        <h4 class="text-capitalize">subscribe for our <b>news letter!</b></h4>
+                        <form action="">
+                            <input type="email" placeholder="your email" class="form-control" name="subscribe">
+                            <button type="submit" class="text-uppercase">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!--End row-->
+        </div>
+        <!--End Container-->
+    </footer>
+    <!--=============== End footer ===============-->
+
+    <!--=============== Start copy ===============-->
+    <section class="copyright">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-xs-12">
+                    <p class="text-capitalize text-left">&copy; copyright techchamps 2019. all rights</p>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-capitalize">privacy & policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-capitalize">terms of service</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--=============== End copy ===============-->
+
+    <!--=============== Strat up ===============-->
+    <i id="up" class="fa fa-arrow-up fa-fw"></i>
+    <!--=============== End up ===============-->
+
+    <!--=============== Start modale of i want to hire ===============-->
+    <div class="modal fade show" id="toHire" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title text-uppercase text-center font-weight-bold" id="exampleModalLabel" style="width: 100%">I
+                        want to hire</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!--Start row-->
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="text" name="text" placeholder="Name" class="form-control form-group">
+                            <input type="email" name="email" placeholder="E-mail" class="form-control form-group">
+                            <input type="text" name="companyName" placeholder="Company Name" class="form-control form-group">
+                            <input type="number" name="numberVacancies" placeholder="Number of CVacancies avalible for hiring"
+                                class="form-control form-group">
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="number" name="mobile" placeholder="Mobile" class="form-control form-group">
+                            <select class="form-control form-group">
+                                <option value="">Country</option>
+                                <option value="egypt">Egypt</option>
+                                <option value="america">American</option>
+                            </select>
+                            <input type="text" name="companySite" placeholder="Company Web Site" class="form-control form-group">
+                            <input type="text" name="noteForContacting" placeholder="Note For Contacting" class="form-control form-group">
+                        </div>
+                    </div>
+                    <!--End row-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <textarea name="" placeholder="Message Us" class="form-control" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn main-btn text-uppercase m-auto" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=============== End modale of i want to hire ===============-->
+
+    <!--=============== Start modale of i want to work ===============-->
+    <div class="modal fade show to-work" id="toWork" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title text-uppercase text-center font-weight-bold" id="exampleModalLabel" style="width: 100%">
+                        i want to work
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!--Start row-->
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="text" name="text" placeholder="Name" class="form-control form-group">
+                            <input type="email" name="email" placeholder="E-mail" class="form-control form-group">
+                            <select name="" class="form-control form-group">
+                                <option value="">Country</option>
+                                <option value="">Egypt</option>
+                                <option value="">Egypt</option>
+                                <option value="">Egypt</option>
+                                <option value="">Egypt</option>
+                            </select>
+                            <input type="text" name="currentEmployee" placeholder="Current Employer" class="form-control form-group">
+                            <input type="number" name="" placeholder="years of experience" class="form-control form-group">                            
+                            <input type="text" name="" placeholder="expected salary" class="form-control form-group">                            
+                            <input type="text" name="" placeholder="Linked Profile URL" class="form-control form-group">                            
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <input type="number" name="mobile" placeholder="Mobile" class="form-control form-group">
+                            <input type="text" name="" placeholder="current position" class="form-control form-group">
+                            <select class="form-control form-group">
+                                <option value="">city</option>
+                                <option value="">cairo</option>
+                                <option value="">new yourk</option>
+                            </select>
+                            <label>
+                                <input type="checkbox" name=""> Not Working Yet
+                            </label>
+                            <select class="form-control form-group">
+                                <option value="">Targeted Technical Area</option>
+                                <option value="">cairo</option>
+                                <option value="">new yourk</option>
+                            </select>
+                            <input type="text" name="" placeholder="Notice Period" class="form-control form-group">
+                            <input type="text" name="" placeholder="Github Profile URL" class="form-control form-group">
+                        </div>
+                    </div>
+                    <!--End row-->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="input-group form-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                                    <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                                </div>
+                            </div>
+                            <textarea name="" placeholder="Message Us" class="form-control" rows=""></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn main-btn text-uppercase m-auto" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=============== End modale of i want to work ===============-->
+
+    <!--=============== Start Successfull Message ===============-->
+    <div class="success-msg text-center">
+        <div class="core">
+            <div class="sign">
+                <i class="fa fa-check fa-fw"></i>
+                <h4 class="h5 text-uppercase">success</h4>
+            </div>
+            <div class="info">
+                <h5 class="text-uppercase font-weight-bold">your request is on it’s way to us!</h5>
+                <p class="text-uppercase">we will contact you as soon as we have a suitable opportunity.</p>
+                <a href="#" class="text-uppercase">go back to home page 
+                    <i class="fa fa-undo fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--=============== End Successfull Message ===============-->
+
+
+    <!--========== jQuery library ==========-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--========== bootstrap js ==========-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--========== Bx Slider js ==========-->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!--========== Wow js ==========-->
+    <script src="js/wow.min.js"></script>
+    <!--========== slider images js ==========-->
+    <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
+    <script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+    <script>
+        new Vue({
+            el: '#carousel3d',
+            data: {
+                slides: 7
+            },
+            components: {
+                'carousel-3d': Carousel3d.Carousel3d,
+                'slide': Carousel3d.Slide
+            }
+        })
+    </script>
+
+    <!--========== custom js ==========-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

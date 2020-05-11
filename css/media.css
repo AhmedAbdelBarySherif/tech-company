@@ -1,0 +1,216 @@
+@media(max-width: 775px) {
+
+    .navbar {
+        padding: 0
+    }
+
+    .navbar ul {
+        background-color: #3967b0;
+        padding: 10px;
+        width: 100%
+    }
+
+    .navbar .hovered-a {
+        display: none;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        border: 0;
+        outline: none
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/list-icon-18-256.png);
+    }
+
+    .hero .hunting h1 {
+        font-size: 45px;
+        text-transform: uppercase!important
+    }
+
+    .hero .hunting h4 {
+        font-size: 30px;
+        color: #ddd
+    }
+
+    .hero .hunting div {
+        text-align: center
+    }
+
+    .hero .hunting div button:first-of-type {
+        margin-right: auto;
+        margin-bottom: 20px
+    }
+
+    .hero .hunting div button {
+        display: block;
+        margin: auto
+    }
+
+    .we-connect .connect-bg {
+        margin-top: 10px;
+    }
+
+    .service {
+        padding: 40px 0 0;
+        overflow-x: hidden
+    }
+
+    .service h4,
+    .value h4,
+    .portofolio .head h4,
+    .partners .head h4,
+    .contacts .head h4 {
+        font-size: 16px
+    }
+
+    .service h5,
+    .partners .head h6 {
+        font-size: 18px
+    }
+
+    .service p.main-p {
+        width: 95%
+    }
+
+    .service .certs .carousel-3d-controls .next,
+    .service .certs .carousel-3d-controls .prev {
+        color: #fff;
+        background-color: #3967b0;
+        height: 54px;
+        display: block;
+        line-height: 54px;
+        width: 28px;
+        transform: translateX(23px) translateY(-34%);
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .service .certs .carousel-3d-controls .prev {
+        transform: translateX(-23px) translateY(-34%);
+    }
+
+    .value {
+        padding: 40px 0 0
+    }
+
+    .value .head,
+    .portofolio .head,
+    .contacts .head h6 {
+        margin-bottom: 30px
+    }
+
+    .value h6,
+    .portofolio .head h6,
+    .contacts .head h6 {
+        font-size: 14px
+    }
+
+    .value .appendex p {
+        width: 95%
+    }
+
+    .value .one {
+        margin-top: 5%;
+    }
+
+    .value .two,
+    .value .four,
+    .value .three {
+        margin-top: 5%;
+    }
+
+    .value .details-img img {
+        width: 60%;
+        display: block;
+        margin: auto;
+        transform: translateY(0);
+    }
+
+    .value .one,
+    .value .two,
+    .value .three,
+    .value .four {
+        text-align: center
+    }
+
+    .portofolio .overlay .portofolio-bg {
+        display: none
+    }
+
+    .portofolio .overlay,
+    .contacts {
+        padding: 40px 0
+    }
+
+    .portofolio .info .number {
+        font-size: 40px
+    }
+
+    .portofolio .info p {
+        font-size: 20px
+    }
+
+    .portofolio .download a {
+        position: relative;
+        z-index: 2
+    }
+
+    .partners {
+        padding: 40px 0
+    }
+
+    .partners .logo div {
+        text-align: center;
+        margin-bottom: 20px
+    }
+
+    .partners .col-xs-12:nth-of-type(6) div:first-of-type {
+        margin-bottom: 120px
+    }
+
+    .partners .col-xs-12:nth-of-type(6) .logo {
+        margin-bottom: 0 !important
+    }
+
+    .contacts .contacts-info .col-xs-12 {
+        padding: 0
+    }
+
+    .contacts .contacts-info {
+        width: 95%;
+    }
+
+    .contacts .contacts-info textarea {
+        margin-top: 20px
+    }
+
+    .contacts .top-contact,
+    .contacts .bottom-contact {
+        display: none
+    }
+
+    footer .footer-about {
+        text-align: center;
+        margin-bottom: 40px
+    }
+
+    footer .footer-contact:before {
+        top: -12%;
+        right: 10%;
+        width: 80%;
+        height: 2px;
+        transform: rotate(0deg);
+    }
+
+    footer .footer-contact:after {
+        bottom: -9%;
+        left: 10%;
+        width: 80%;
+        height: 2px;
+        transform: rotate(0deg);
+    }
+
+    footer .footer-subscribe {
+        padding

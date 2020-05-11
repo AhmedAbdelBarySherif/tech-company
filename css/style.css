@@ -1,0 +1,883 @@
+
+/*  ==================================================================================
+    ========================= -Implemented by: Ahmed Sherif. =========================
+    ========================= -Date:           08 / 03 / 2019. =======================
+    ========================= -My profile is   www.ahmedsherif.website ===============
+    ==================================================================================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+p,
+span,
+a {
+    font-family: 'PT Sans', sans-serif;
+}
+/*========== Start main slider ==========*/
+/*.homeSlider {
+    position: relative;
+    height: 100vh!important;
+}
+
+.homeSlider .bxslider{
+    height: 100vh!important;
+}
+
+.homeSlider .bx-wrapper{
+    box-shadow: none;
+    border: none!important;
+    width: 100%;
+    margin-bottom: 0
+}
+
+.homeSlider .bx-viewport{
+    height: 100vh!important;
+}
+
+.homeSlider .bx-wrapper img{
+    height: 100vh;
+    width: 100%
+}
+
+.homeSlider .bx-pager {
+    position: absolute;
+    bottom: 50px
+}
+
+.homeSlider .bx-wrapper .bx-pager.bx-default-pager a{
+    background-color: #fff;
+    height: 4px;
+    width: 30px;
+    display: none
+}
+
+.homeSlider .active{
+    background-color: #11749e!important
+}
+
+.homeSlider .bxslider li{
+    position: relative
+}*/
+/*========== End main slider ==========*/
+
+/*================== Start hero ==================*/
+.homeSlider .hero {
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;*/
+    /* height: 80vh; */
+    width: 100%;
+    background: url(../imgs/slider/header-image.jpg) no-repeat;
+    background-size: cover;
+    /*background-color: rgb(41, 113, 181, .6);*/
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero .col-xs-12 {
+    width: 100%
+}
+
+.hero .hunting {
+    color: #fff
+}
+
+.hero .hunting h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    letter-spacing: 4px
+}
+
+.hero .hunting h4 {
+    color: #ddd;
+    font-size: 2.5vw;
+    letter-spacing: 6px;
+    margin-bottom: 20px
+}
+
+.hero .hunting div button:first-of-type {
+    margin-right: 20px
+}
+
+.hero .hunting div button:first-of-type:hover,
+.hero .hunting div button:last-of-type:hover,
+.partners .join a:hover,
+.contacts .contacts-info button:hover {
+    background: linear-gradient(to bottom, #be5f2b 0%,#ea8537 100%);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)
+}
+
+.hero .hunting div button:last-of-type:hover {
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.hero .advice {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    transform: translateY(100px)
+}
+
+.hero .advice strong {
+    color: #e98437;
+}
+
+.hero .advice:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 5%,#fff 50%,rgba(255, 255, 255, 0) 95%)
+}
+
+.hero .advice:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 30%;
+    width: 40%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 5%,#fff 50%,rgba(255, 255, 255, 0) 95%)
+}
+/*================== End hero ==================*/
+
+/*================== Start navbar ==================*/
+.navbar {
+    background-color: transparent;
+}
+
+.navbar_top {
+    background-color: #3967b0;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, .3)
+}
+
+.navbar .navbar-brand img {
+    width: 80px
+}
+
+.navbar_nav_top {
+    transform: translateY(15px)
+}
+
+.navbar .navbar-nav li.nav-item a {
+    color: #fff;
+}
+
+.navbar .navbar-nav li.nav-item a:hover {
+    color: #f79663!important
+}
+
+.navbar .hovered-a {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-10px)
+}
+
+.navbar .hovered-a li span {
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #e98437;
+    opacity: 0
+}
+
+.navbar .hovered-a li:nth-child(1) span {
+    margin-right: -4px
+}
+
+.navbar .hovered-a li:nth-child(3) span {
+    margin-left: -6px
+}
+
+.navbar .navbar-nav li.nav-item:hover .hovered-a li span {
+    opacity: 1;
+}
+
+.navbar .navbar-nav li.nav-item:hover .hovered-a li:nth-child(1) span {
+    margin-right: 4px
+}
+
+.navbar .navbar-nav li.nav-item:hover .hovered-a li:nth-child(3) span {
+    margin-left: 4px
+}
+
+.active_link {
+    color: #f79663!important
+}
+/*================== End navbar ==================*/
+
+/*================== Start we-connect ==================*/
+.we-connect {
+    padding: 40px 0 0;
+    background: url(../imgs/we-connect-top-right.png) no-repeat 95% top
+}
+
+.we-connect .connect-bg {
+    margin-top: 15px;
+    height: 350px;
+    background: url(../imgs/we-connect.png) no-repeat center
+}
+/*================== End we-connect ==================*/
+
+/*================== Start service ==================*/
+.service {
+    background-color: #fafafa;
+    padding: 80px 0 0;
+    border-bottom: 10px solid #2971b5
+}
+
+.service .carousel-3d-container, .service .certs {
+    padding: 0!important;
+}
+
+.service h5 {
+    color :rgb(168, 168, 168);
+    font-size: 30px;
+    margin: 0 0 20px;
+    letter-spacing: 4px
+}
+
+.service hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(168, 168, 168, .4);
+    width: 33%
+}
+
+.service p.main-p {
+    color: rgb(168, 168, 168);
+    width: 55%;
+    margin: auto;
+    margin-bottom: 80px
+}
+
+.service .certs {
+    background-color: #fff;
+    padding: 40px 0
+}
+
+.service .carousel-3d-container {
+    overflow: visible!important;
+}
+
+.service #carousel3d .carousel-3d-slide {
+    opacity: .8!important;
+    filter: blur(2px);
+    overflow: visible!important;
+}
+
+.service #carousel3d .current {
+    opacity: 1!important;
+    filter: blur(0)
+}
+
+.service .carousel-3d-container,
+.service .certs {
+    background-color: #fafafa!important
+}
+
+.service .certs .carousel-3d-slide {
+    height: auto!important;
+    background-color: #fff!important;
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.service .certs .carousel-3d-slide h3 {
+    font-weight: 600;
+    font-size: 22px
+}
+
+.service .certs .carousel-3d-slide p {
+    font-weight: 400!important;
+    color: rgb(168, 168, 168);
+}
+
+.service .certs .number {
+    background-color: #2971b5;
+    display: block;
+    margin: auto;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-20px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.service .certs .number img {
+    width: 60%
+}
+
+.service .certs .next,
+.service .certs .prev {
+    display: none
+}
+/*================== End service ==================*/
+
+/*================== Start value ==================*/
+.value {
+    padding: 80px 0 0;
+    background-color: #fff;
+}
+
+.value .head {
+    margin-bottom: 30px
+}
+
+.value .head h6 {
+    color: #717171
+}
+
+.value .appendex {
+    /*margin-bottom: 40px*/
+}
+
+.value .appendex p {
+    color: #717171;
+    width: 44%;
+    font-size: 12px
+}
+
+.value .one {
+    margin-top: 60%
+}
+
+.value .two {
+    margin-top: 25%
+}
+
+.value .three {
+    margin-top: 47%
+}
+
+.value .four {
+    margin-top: 24%
+}
+
+.value .details p {
+    color: #717171;
+    font-size: 12px
+}
+
+.value .details-img img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    transform: translateY(11%)
+}
+/*================== End value ==================*/
+
+/*================== Start portofolio ==================*/
+.portofolio {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.portofolio .top-left,
+.portofolio .bottom-right {
+    position: absolute;
+    width: 100px
+}
+
+.portofolio .top-left {
+    top: -8%;
+}
+
+.portofolio .bottom-right {
+    bottom: -8%;
+    right: 5%
+}
+
+.portofolio .overlay .portofolio-bg {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    margin-bottom: 80px
+}
+
+.portofolio .overlay {
+    padding-bottom: 80px;
+    background-size: cover;
+    background: linear-gradient(to bottom, #2eb2e6 0%,#3967b0 100%); 
+}
+
+.portofolio .head {
+    margin-bottom: 80px
+}
+
+.portofolio .head h4 {
+    color: #fff
+}
+
+.portofolio .head h6{
+    color: #d0dee6;
+    font-size: 18px;
+    letter-spacing: 2px
+}
+
+.portofolio .info {
+    text-align: center;
+    color: #fff
+}
+
+.portofolio .col-sm-4:first-of-type .info {
+    background: url(../imgs/success.png) no-repeat left;
+}
+
+.portofolio .col-sm-4:nth-of-type(2) .info {
+    background: url(../imgs/links.png) no-repeat;
+    background-size: 80% 80%
+}
+
+.portofolio .col-sm-4:nth-of-type(3) .info {
+    background: url(../imgs/map.png) no-repeat center;
+    background-size: 80% 80%
+}
+
+.portofolio .info .number {
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px
+}
+
+.portofolio .info p {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portofolio .download {
+    margin-top: 10%;
+    display: none
+}
+
+.portofolio .download a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px
+}
+
+.portofolio .download a:hover {
+    background-color: #fff;
+    color: #0b2341;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+/*================== End portofolio ==================*/
+
+/*================== Start partners ==================*/
+.partners {
+    padding: 80px 0
+}
+
+.partners .head {
+    margin-bottom: 60px
+}
+
+.partners .head h4 {
+    font-size: 30px
+}
+
+.partners .head h6 {
+    font-size: 30px;
+    letter-spacing: 2px
+}
+
+.partners .logo div {
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 20px
+}
+
+.partners .logo img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(1)
+}
+
+.partners .logo img:hover { 
+    filter: grayscale(0)
+}
+
+.partners .join {
+    margin-top: 40px
+}
+
+.partners .join a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    padding: 8px 30px
+}
+
+.partners .join a:hover {
+    color: #fff
+}
+/*================== End partners ==================*/
+
+/*================== Start contacts ==================*/
+.contacts {
+    background: url(../imgs/contact-us-bg.png) no-repeat fixed;
+    background-size: 100% 100%
+}
+
+.contacts .top-contact,
+.contacts .bottom-contact {
+    width: 100%
+}
+
+.contacts .head h6 {
+    color: rgba(168, 168, 168);
+    margin-bottom: 60px
+}
+
+.contacts .contacts-info {
+    width: 60%;
+    margin: auto
+}
+
+.contacts .contacts-info .col-xs-12:first-of-type {
+    padding-left: 0
+}
+.contacts .contacts-info .col-xs-12:last-of-type {
+    padding-right: 0
+}
+
+.contacts .contacts-info input {
+    margin-bottom: 20px
+}
+
+.contacts .contacts-info textarea {
+    resize: 0;
+    margin-bottom: 30px
+}
+
+.contacts .contacts-info input,
+.contacts .contacts-info select,
+.contacts .contacts-info textarea {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.contacts .contacts-info button {
+    margin: auto
+}
+
+.border_red {
+    background-color: #f8d7da!important;
+    border-color: #f5c6cb;
+}
+/*================== End contacts ==================*/
+
+/*================== Start footer ==================*/
+footer {
+    background-color: #0b2341;
+    color: #fff;
+    padding: 60px 0;
+}
+
+footer h4,
+footer p,
+footer span,
+footer button {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h4 {
+    font-size: 16px
+}
+
+footer h4 b {
+    color: rgb(161, 161, 161)
+}
+
+footer p {
+    font-size: 14px;
+    color: #b7b7b7
+}
+
+footer .footer-about .links a {
+    text-decoration: none
+}
+
+footer .footer-about .links a i {
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px
+}
+
+footer .footer-about .links a i:hover {
+    color: #0b2341;
+    background-color: #fff
+}
+
+footer .footer-contact {
+    position: relative;
+}
+
+footer .footer-contact:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 60%;
+    right: -19%;
+    width: 60%;
+    height: 2px;
+    transform: rotate(90deg);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 5%,#fff 50%,rgba(255, 255, 255, 0) 95%)
+}
+
+footer .footer-contact:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 45%;
+    left: -36%;
+    width: 60%;
+    height: 2px;
+    transform: rotate(90deg);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 5%,#fff 50%,rgba(255, 255, 255, 0) 95%)
+}
+
+footer .footer-contact li {
+    line-height: 2
+}
+
+footer .footer-contact li i {
+    color: #b7b7b7;
+}
+
+footer .footer-contact li span {
+    width: 80%;
+    display: inline-block;
+    font-size: 12px
+}
+
+footer .footer-subscribe button {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 4px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+footer .footer-subscribe button:hover {
+    background-color: #fff;
+    color: #0b2341
+}
+/*================== End footer ==================*/
+
+/*================== Start copy ==================*/
+.copyright {
+    background-color: #031224;
+    padding: 10px 0
+}
+
+.copyright p {
+    margin: 0
+}
+
+.copyright p,
+.copyright a {
+    color: #48688e
+}
+
+.copyright ul {
+    text-align: right;
+    float: right;
+    margin: 0
+}
+
+.copyright li {
+    float: left
+}
+/*================== End copy ==================*/
+
+/*================== Start up ==================*/
+#up {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 999;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgb(163, 163, 163);
+    display: none
+}
+
+#up:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 2px;
+    height: 2px;
+    width: 22px;
+    background-color: #fff;
+}
+
+#up:hover {
+    color: #ea8537 
+}
+/*================== End up ==================*/
+
+/*================== Start success-msg ==================*/
+.success-msg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none
+}
+
+.success-msg .core {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.success-msg .core .sign {
+    background: linear-gradient(to bottom, #387ec0 0%, #3a5698 100%);
+    color: #fff;
+    padding: 30px 0 20px 0;
+    margin-bottom: 10px
+}
+
+.success-msg .core .sign i {
+    border: 2px solid #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.success-msg .core .sign h4 {
+    letter-spacing: 2px
+}
+
+.success-msg .core .info {
+    padding: 20px 10px 20px 10px
+}
+
+.success-msg .core .info h5 {
+    font-size: 14px;
+}
+
+.success-msg .core .info p {
+    font-size: 11px;
+    color: rgba(0, 0, 0, .6)
+}
+
+.success-msg .core .info a {
+    font-size: 12px
+}
+/*================== End success-msg ==================*/
+
+
+/*helpers*/
+.navbar,
+.navbar .hovered-a li span,
+.hero .hunting div button,
+.navbar .navbar-brand img,
+.navbar .navbar-nav,
+.navbar .navbar-nav li.nav-item a,
+.portofolio .download a,
+.partners .logo img,
+.partners .join a,
+.contacts .contacts-info button,
+footer .footer-about .links a i,
+footer .footer-subscribe button,
+#up {
+    transition: all .3s ease-in-out    
+}
+
+a,
+button {
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, .5)!important;
+}
+
+.main-btn {
+    border-radius: 20px;
+    padding: 6px 30px;
+    background: linear-gradient(to bottom, #ea8537 0%,#be5f2b 100%);
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+
+.main-btn-alpha {
+    border-radius: 20px;
+    padding: 6px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff
+}
+
+.main-color,
+.service .certs .carousel-3d-slide h3 {
+    color: #2971b5
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, .9)!important
+}
+
+.to-work .modal-footer {
+    padding: 0 0 10px 0;
+    border-top: 0
+}
